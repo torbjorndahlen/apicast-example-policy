@@ -62,7 +62,8 @@ objects:
       images:
         - from:
             kind: ImageStreamTag
-            name: 'apicast-policy:example'
+            #name: 'apicast-policy:example'
+            name: apicast-policy:example
           paths:
             # copy policy source code into the new image
             - destinationDir: policies
